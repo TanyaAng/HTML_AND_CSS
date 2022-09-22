@@ -1,0 +1,49 @@
+body{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding-left: 30px;
+}
+
+.heading {
+    font-family: Georgia, serif;
+}
+
+blockquote{
+    font-style: italic;
+    border-left:3px solid rgb(221,221,221);
+    padding-left: 20px;
+}
+
+p.author{
+     text-align: right;
+}
+
+table{
+    width: 100%; 
+    border-collapse: collapse;
+    border-spacing: 0;       
+}
+
+table td {
+    width:33.33333%
+}
+
+th{
+    text-align: left;
+    background-color: #CCCCCC;
+    border: 1px solid #CCCCCC;
+    padding-left: 5px;
+    height: 30px;
+}
+
+td{
+    /* background-color: #F1F1F1;*/
+    border: 1px solid #CCCCCC;
+    padding-left: 5px;
+    height: 30px;
+}
+
+tr:nth-child(odd) {
+    background-color:#F1F1F1;
+}
