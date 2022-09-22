@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Proxima+Nova');
+
+body{
+    font-family: 'proxima-nova', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+nav{
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    width: 200px;
+}
+
+li{
+    list-style: none;
+    margin-left: -15px;
+    line-height: 25px;
+
+}
+a{
+    text-decoration: none;
+    color: #c83025;
+}
+i{
+    width:1.14em;
+    padding-right: 0.28em;
+}
+
+button {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button.shopping {
+    background-color: #83a94c;
+    border-color: rgba(0, 0, 0, 0.1) ;
+}
+button.info {
+    background-color: #008ed0;
+    border-color: rgba(0, 0, 0, 0.1)  ;
+}
+button.delete {
+    background-color: #cc4036;
+    border-color: rgba(0, 0, 0, 0.25) ;
+}
