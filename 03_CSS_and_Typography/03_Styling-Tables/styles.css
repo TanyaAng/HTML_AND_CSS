@@ -6,12 +6,8 @@ body{
 }
 th{
     background-color: lightblue;
-    width: 144px;
-    height: 32px;
-    border: 1px solid #ccc;
-    padding-left: 5px;
 }
-td{
+th,td{
     width: 144px;
     height: 32px;
     border: 1px solid #ccc;
