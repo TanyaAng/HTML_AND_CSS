@@ -1,0 +1,26 @@
+body{
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+    margin: 50px 50px;
+}
+
+div{
+    display: flex;
+}
+
+header{
+    width:60%
+}
+
+section{
+    width:60%
+}
+
+aside{
+    width:20%;
+}
+
+img{
+    width:500px;
+}

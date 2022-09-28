@@ -1,0 +1,33 @@
+body{
+    font-family:Helvetica, sans-serif;
+    margin: 50px; 
+    padding: 20px;
+}
+
+header{
+    display: flex;
+    justify-content:start;
+    align-items:baseline;
+    border-bottom: 2px solid black;
+    width:100%;
+}
+
+
+nav{
+    display: inline-block;
+}
+
+nav ul {
+    margin-left: 50px;
+    list-style-type: none;
+
+}
+
+nav li{
+    display: inline-block;
+    padding-right: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: #489E1D;
+}
