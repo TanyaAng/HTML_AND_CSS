@@ -98,9 +98,7 @@ p{
 
 section div{
     display: inline-block;
-    /* border: 1px solid red;
-    padding: 0px;
-    margin: 0px; */
+
 }
 
 .left-container{
@@ -117,18 +115,6 @@ section div{
     float:right;
 }
 
-/* div p{
-    width:50%;
-    float:right;
-} */
-
-
-/* .left-container {
-    float:left;
-    width:50%;
+.clearfix{
+    overflow: auto;
 }
-
-.right-container {
-    float:right;
-    width:50%;
-} */
