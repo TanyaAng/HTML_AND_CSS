@@ -71,12 +71,10 @@ blockquote p.author{
 
 main {
     grid-area: main;
-    /* border:3px solid red; */
 }
 
 aside {
     grid-area: nav;
-    /* border:3px solid red; */
 }
 
 a {
@@ -84,9 +82,53 @@ a {
     color: rgb(0, 102, 0);
 }
 
-article section{
-    display:grid;
-    grid-template-areas:
-    "left-content rigth-content";
-    grid-template-columns: auto auto;
+section img.first-img{
+    float:right;
+    margin-left:30px;
 }
+
+section img.second-img{
+    float:left;
+    margin-right: 30px;
+}
+
+p{
+    text-align: justify;
+}
+
+section div{
+    display: inline-block;
+    /* border: 1px solid red;
+    padding: 0px;
+    margin: 0px; */
+}
+
+.left-container{
+    margin: 0px;
+    padding: 0px;
+    width: 45%;
+    float:left;
+}
+
+.right-container{
+    margin: 0px;
+    padding: 0px;
+    width:45%;
+    float:right;
+}
+
+/* div p{
+    width:50%;
+    float:right;
+} */
+
+
+/* .left-container {
+    float:left;
+    width:50%;
+}
+
+.right-container {
+    float:right;
+    width:50%;
+} */
