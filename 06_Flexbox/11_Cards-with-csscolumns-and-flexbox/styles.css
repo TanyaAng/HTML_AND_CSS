@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(238,238,238);  
+    display: flex;
+    flex-direction: column;
+}
+
+div.cards-layout{
+    max-width:1600px;
+    display:flex; 
+    gap: 20px;  
+}
+
+
+div.masonry{
+    background-color: blanchedalmond;
+    max-height: 1200px;
+    flex-flow: column wrap;
+}
+
+
+div.flex{
+    flex-flow: row wrap;
+    background-color: aqua;
+}
+
+
+div.flex article{
+    position: relative;
+}
+
+div.cards-layout article{
+    width:250px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+div.cards-layout h3{
+    padding-left: 15px;
+}
+
+div.cards-layout p{
+    padding: 15px;
+    border-bottom: 1px solid gray;
+}
+
+div.cards-layout footer{
+    padding: 15px;
+}
+
+img{
+    width: 100%;
+}
+
+
+
