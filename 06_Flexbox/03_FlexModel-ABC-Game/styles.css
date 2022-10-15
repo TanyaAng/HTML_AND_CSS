@@ -1,0 +1,59 @@
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top:50px;
+    margin-left: 50px;
+}
+
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    max-width: 15vw;
+    height: 40rem;   
+}
+
+span{
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    width:30%;
+    height:3rem;
+    margin: 3px;
+    padding: 10px;
+}
+
+#S{
+    order:1;
+}
+#e{
+    order:2;
+}
+#m{
+    order:3;
+}
+#a{
+    order:4;
+}
+#n{
+    order:5;
+}
+#t{
+    order:6;
+}
+#i{
+    order:7;
+}
+#c{
+    order:8;
+}
+#H{
+    order:10;
+}#T{
+    order:11;
+}#M{
+    order:12;
+}#L{
+    order:13;
+}

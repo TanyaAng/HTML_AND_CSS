@@ -1,0 +1,29 @@
+.container{
+    background-color: #EEE;
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.item{
+    background-color: #FFF;
+    padding: 2rem;
+    border-radius: 0.4rem;
+    color: #000;
+}
+
+header, footer{
+    flex-basis: 100%;
+}
+
+main{
+    /* flex-grow: 8;
+    flex-shrink: 1;
+    flex-basis: 40rem; */
+    flex: 8 1 40rem;
+}
+
+aside{
+    flex: 2 1 20rem;
+}
