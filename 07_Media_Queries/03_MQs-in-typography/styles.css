@@ -1,0 +1,163 @@
+*{
+    box-sizing:border-box ;
+}
+
+body {
+    justify-content: center;
+    background:rgb(238, 238, 238);
+}
+
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+
+
+header{
+    font-family: Georgia, serif;
+    font-size: 1em;
+}
+
+img{
+    background-color:rgb(255, 255, 255) ;
+    border: 3px solid black;
+    padding: 10px;
+    box-shadow:rgba(0, 0, 0, 0.25);
+}
+
+blockquote{
+    font-family: Georgia, serif;
+    font-style: italic;
+    border-left: 1px solid grey;
+    position:relative;
+}
+blockquote p {
+    margin-left: 30px;
+}
+
+blockquote p.author{
+    position: absolute;
+    top:60%;
+    left: 50%;
+    
+}
+
+header.title {
+    border-bottom: 3px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
+section img.first-img{
+    float:right;
+    margin-left:30px;
+}
+
+section img.second-img{
+    float:left;
+    margin-right: 30px;
+}
+
+p{
+    text-align: justify;
+}
+
+#second-section div{
+    display: inline-block;
+}
+
+.left-container{
+    margin: 0px;
+    padding: 0px;
+    width: 45%;
+    float:left;
+}
+
+.right-container{
+    margin: 0px;
+    padding: 0px;
+    width:45%;
+    float:right;
+}
+
+.clearfix{
+    overflow: auto;
+}
+
+
+@media(max-width:1800px){
+
+    body{
+        font-size:23px;
+    }
+
+
+}
+
+@media(max-width:1300px){
+
+    body{
+        font-size:21px;
+    }
+    .container{
+        max-width: 90%;
+        margin: auto;
+    }
+
+}
+
+@media(max-width:800px){
+
+    body{
+        font-size:18px;
+    }
+
+}
+
+@media(max-width:600px){
+
+    body{
+        font-size:16px;
+    }
+
+}
+
+@media(max-width:500px){
+
+    body{
+        font-size:14px;
+    }
+
+}
+
+@media(max-width:420px){
+
+    body{
+        font-size:12px;
+    }
+    section img.first-img,
+    section img.second-img{
+        float:unset;
+        width:80%;
+    }
+
+    #second-section div{
+        display: unset;
+    }
+    
+    .left-container{
+        width: unset;
+        float:unset;
+    }
+    
+    .right-container{
+        margin-left: 30px;
+        width:unset;
+        float:unset;
+    }
+    
+
+}
