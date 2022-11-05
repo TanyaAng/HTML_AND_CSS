@@ -1,0 +1,10 @@
+@media screen and (max-width:600px){
+    .w3-hide-small{
+        display: none;  
+    }
+
+    #about article, #menu article{
+        width: 100%;
+    }
+
+}
