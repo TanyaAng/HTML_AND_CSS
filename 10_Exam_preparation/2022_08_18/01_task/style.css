@@ -1,0 +1,71 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+body{
+    background-image: url(./images/background.png);
+    font-family: 'Mulish', sans-serif;
+}
+
+section{
+    width: 800px;
+    height: auto;
+    padding: 50px 50px;
+
+    background-image: url(./images/form-background.png);
+    background-size: 100%;
+    border-radius: 30px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    margin: 20px auto;
+    text-align: center;
+}
+
+form{
+    width: 60%;
+}
+
+form div.name {
+    display: flex;
+    justify-content: space-between;
+}
+
+label{
+    display: block;
+    margin: 10px 0px;
+}
+
+input.add-info{
+    width: 100%;
+}
+
+input{
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    height: 40px;
+}
+
+.btn {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+
+    border-radius: 20px;
+    padding: 8px 24px;
+    background-color: #AE3C33;
+    color: white;
+    border: unset;
+}
+
+.checkbox-ctn{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+

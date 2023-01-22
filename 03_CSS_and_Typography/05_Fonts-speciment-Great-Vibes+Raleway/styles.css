@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway&display=swap');
 
 body{
-    font-family: Raleway, sans-serif;
     font-size: 16px;
     line-height: 1.5;
+    padding: 30px 60px;
+    font-family: Raleway, sans-serif;
 }
 
 h1{
-    font-family: Great Vibes, cursive;
+    
     font-weight: bold;
     line-height: 1.2;
+    font-family: Great Vibes, cursive;
 }
 
 li.main{
@@ -21,5 +23,4 @@ li.inner{
 }
 li.sub-inner{
     list-style: circle;
-
 }
