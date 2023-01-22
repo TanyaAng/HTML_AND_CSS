@@ -1,0 +1,64 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Mulish&display=swap');
+@import url("https://use.fontawesome.com/releases/v6.2.1/css/all.css");
+
+body{
+    margin-top: 50px;
+    font-family: 'Courgette', cursive;
+    background-color: #f5f5f5e0;
+}
+
+header{
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+}
+.main-header-scd{
+    color: #C9274A;
+    text-align: end;
+    font-size: 20px;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    gap:40px;
+    margin: 100px;
+}
+
+article{
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    height: 32rem;
+}
+
+hr{
+    height: 1px;
+    background-color:#C9274A;
+    border: none;
+}
+
+.content, 
+.footer{
+    margin: 10px 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+i{
+    color:#C9274A;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
