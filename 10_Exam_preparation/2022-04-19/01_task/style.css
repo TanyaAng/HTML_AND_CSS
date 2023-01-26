@@ -1,0 +1,125 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Mulish&family=Open+Sans&display=swap');
+@import url("https://use.fontawesome.com/releases/v6.2.1/css/all.css");
+
+body{
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: repeat(2,1fr);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.aside{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+    width: 50%;
+
+    position: relative;
+    background-image: url(./image/cover.jpg);
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+.soft-header{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 24px;
+    /* z-index: 100; */
+
+}
+
+.main-header{
+    text-align: center;
+
+}
+
+.main-header h1{
+    margin-block-start: unset;
+    margin-block-end: unset;
+    font-size: 70px;
+    font-weight: 200;
+    /* z-index: 100; */
+}
+
+.main-header h2{
+    font-size: 50px;
+    font-weight: 200;
+}
+
+footer{
+    position: absolute;
+    bottom: 50px;
+
+    left:50%;
+    transform: translateX(-50%);
+}
+
+ul{
+    padding: unset;
+}
+
+li{
+    display: inline;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+i{
+    font-size: 24px;
+}
+
+.register-form{
+    position: relative;
+    width: 50%;
+}
+
+article{
+    position: absolute;
+    left:50%;
+    top:50%;
+    width: 80%;
+    transform: translate(-50%,-50%);
+}
+
+label, input{
+    display: block;
+    margin-bottom: 30px;
+    width: 100%;
+    font-size: 24px;
+    color: darkgrey;
+}
+
+
+input{
+    border: none;
+    border-bottom: 1px solid grey;
+    padding-left: 20px;
+}
+
+button{
+    margin-top: 50px;
+    margin-right: 60px;
+    padding: 15px 80px;
+    border-radius: 40px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.ninja{
+    color: darkgrey;
+    font-size: 24px;
+}
+
+input[type="password"]::before {
+    content: "*";
+    position: absolute;
+    margin-left: -20px;
+  }
