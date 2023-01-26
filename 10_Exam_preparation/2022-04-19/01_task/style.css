@@ -3,21 +3,32 @@
 @import url("https://use.fontawesome.com/releases/v6.2.1/css/all.css");
 
 body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #DCDCDC;
+}
+
+main{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 50vh;
     display: flex;
     flex-direction: row;
-    grid-template-columns: repeat(2,1fr);
-    font-family: 'Open Sans', sans-serif;
+    
+    margin-top: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+    
 }
 
 .aside{
     display: flex; 
     justify-content: center;
     align-items: center;
-
     width: 50%;
-
     position: relative;
-    background-image: url(./image/cover.jpg);
+    background: linear-gradient(90deg, rgba(0,0,0,0.6615780101102942) 100%, rgba(0,0,0,0.7960317916228992) 100%), url('image/cover.jpg');
     background-size: cover;
     background-position: center;
     color: whitesmoke;
@@ -27,11 +38,8 @@ body{
 
 .soft-header{
     position: absolute;
-    top: 50px;
-    left: 50px;
-    font-size: 24px;
-    /* z-index: 100; */
-
+    top: 30px;
+    left: 30px;
 }
 
 .main-header{
@@ -42,13 +50,10 @@ body{
 .main-header h1{
     margin-block-start: unset;
     margin-block-end: unset;
-    font-size: 70px;
     font-weight: 200;
-    /* z-index: 100; */
 }
 
 .main-header h2{
-    font-size: 50px;
     font-weight: 200;
 }
 
@@ -70,13 +75,10 @@ li{
     cursor: pointer;
 }
 
-i{
-    font-size: 24px;
-}
-
 .register-form{
     position: relative;
     width: 50%;
+    background-color: white;
 }
 
 article{
@@ -89,9 +91,8 @@ article{
 
 label, input{
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     width: 100%;
-    font-size: 24px;
     color: darkgrey;
 }
 
@@ -104,22 +105,15 @@ input{
 
 button{
     margin-top: 50px;
-    margin-right: 60px;
-    padding: 15px 80px;
+    margin-right: 20px;
+    padding: 10px 40px;
     border-radius: 40px;
     background-color: black;
     color: whitesmoke;
-    font-size: 24px;
     cursor: pointer;
 }
 
 .ninja{
     color: darkgrey;
-    font-size: 24px;
 }
 
-input[type="password"]::before {
-    content: "*";
-    position: absolute;
-    margin-left: -20px;
-  }
