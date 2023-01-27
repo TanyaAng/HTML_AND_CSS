@@ -38,8 +38,8 @@ main{
 
 .soft-header{
     position: absolute;
-    top: 30px;
-    left: 30px;
+    top: 1.8em;
+    left: 1.8em;
 }
 
 .main-header{
@@ -51,15 +51,17 @@ main{
     margin-block-start: unset;
     margin-block-end: unset;
     font-weight: 200;
+    font-size: 2.2em;
 }
 
 .main-header h2{
     font-weight: 200;
+    font-size: 1.5em;
 }
 
 footer{
     position: absolute;
-    bottom: 50px;
+    bottom: 3em;
 
     left:50%;
     transform: translateX(-50%);
@@ -71,7 +73,7 @@ ul{
 
 li{
     display: inline;
-    padding: 0px 20px;
+    padding: 0em 1.25em;
     cursor: pointer;
 }
 
@@ -79,6 +81,7 @@ li{
     position: relative;
     width: 50%;
     background-color: white;
+    
 }
 
 article{
@@ -91,20 +94,21 @@ article{
 
 label, input{
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 0.6em;
     width: 100%;
     color: darkgrey;
+    font-size: 0.9em;
 }
 
 
 input{
     border: none;
     border-bottom: 1px solid grey;
-    padding-left: 20px;
+    padding-left: 1.25em;
 }
 
 button{
-    margin-top: 50px;
+    margin-top: 3.125em;
     margin-right: 20px;
     padding: 10px 40px;
     border-radius: 40px;
