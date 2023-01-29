@@ -1,0 +1,64 @@
+@import url(./reset.css);
+
+:root{
+    --black-color: black;
+    --light-gray: #757982;
+    --white-text: #fff;
+    --green: #03A87C;
+    --light-green: #D0FFED;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#757982
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--black-color);
+}
+
+section{
+    width: 800px;
+    margin: 30px auto 0 auto;
+}
+
+header > h1{
+    font-size: 46px;
+}
+
+span{
+    background-color: var(--light-green);
+}
+
+hr{
+    margin-top: 30px;
+    width: 33%;
+    color:var(--light-gray)
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    padding: 30px 0px;
+}
+.container__content{
+    width: 50%;
+}
+
+.container__content p:first-child{
+    font-weight: bold;
+    color: var(--black-color);
+    margin-bottom: 25px;
+}
+
+a{
+    color: var(--white-text);
+    text-decoration: none;
+    padding: 10px 50px;
+    background-color: var(--green);
+    border-radius: 3px;
+}
