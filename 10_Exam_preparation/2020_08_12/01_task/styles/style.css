@@ -1,0 +1,88 @@
+@import url(./reset.css);
+@import url("https://use.fontawesome.com/releases/v6.2.0/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+
+:root{
+    --blue-colour: #44A9F8;
+    --blue-secondary-colour: #E3F3FD;
+    --gray-colour: rgb(82, 82, 82);
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    color: var(--gray-colour);
+}
+
+section{
+    width:1200px;
+    margin: 30px auto 0 auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 30px;
+}
+
+header{
+    margin-bottom: 20px;
+}
+
+.included, .price{
+    flex-basis: 50%;
+    
+    border-radius: 8px;
+}
+
+.price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;  
+
+    border: 3px solid var(--blue-colour);
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.price__header--blue--big{
+    font-size: 40px;
+    color: var(--blue-colour);
+    margin-bottom: 20px;
+}
+
+.price__header--blue--big>span{
+    font-size: 18px;
+    color: black;
+}
+
+.price__link a{
+    background-color: var(--blue-colour);
+    text-decoration: none;
+    color: #fff;
+
+    padding: 10px 50px;
+    border-radius: 8px;
+}
+
+.included{
+    background-color: var(--blue-secondary-colour);
+    padding: 30px;
+}
+
+.included ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.included ul li p{
+    display: inline;
+    margin-left: 15px;
+}
+
+i{
+    color: var(--blue-colour);
+}
