@@ -1,0 +1,240 @@
+@import url("https://use.fontawesome.com/releases/v6.2.1/css/all.css");
+
+:root{
+    --clr-dark-bg-colour: #9E7211;
+    --clr-light-bg-colour: #C8A434;
+    --clr-grey-text: #72707D;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--clr-grey-text);
+}
+
+a{
+    text-decoration: none;
+    color: var(--clr-grey-text);
+}
+
+/* HEADER AND NAV CSS*/
+header{
+    margin:30px 80px 8px 80px;
+    font-weight:bolder;
+
+    position: relative;
+}
+
+#header__logo{
+    background-color: var(--clr-dark-bg-colour);
+    background: linear-gradient(45deg, rgba(158,114,17,1) 37%, rgba(200,164,52,1) 75%);
+    padding: 30px;
+
+    position: absolute;
+    top: 10px;
+    z-index: 100;
+
+}
+
+ul.main-nav,
+ul.places-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 30px;
+}
+
+ul.main-nav li, 
+ul.places-nav li{
+    padding: 10px 15px;
+}
+
+ul.main-nav{
+    margin-bottom: 15px;
+}
+
+ul.main-nav li{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;   
+}
+
+.nav-icon{
+    font-size: 22px;
+    margin-bottom: 8px;  
+}
+
+/* MAIN - HERO SECTION*/
+
+.hero{
+    position: relative;
+    background-color: var(--clr-dark-bg-colour);
+    background: linear-gradient(45deg, rgba(158,114,17,1) 23%, rgba(200,164,52,1) 44%);
+    height: 100vh;
+    text-align: center;
+
+    color: white;
+}
+
+.carosel-img{
+    height: 60%;
+    overflow: hidden;
+
+}
+
+.carosel-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+
+
+/* MAIN - HERO SECTION - SHUTTLE DIV*/
+.shuttle{
+    width:35%;
+    text-align: left;   
+
+    padding: 30px 30px;
+
+    background:rgba(0,0,0,0.6);
+    position: absolute;
+    top:150px;
+    left: 100px;
+} 
+
+.shuttle h2,
+.shuttle p{
+    margin-bottom: 15px;
+}
+
+/* MAIN - HERO SECTION - CARD DIV*/
+.card{
+    display: inline-block;
+    padding: 20px 0px;
+    width: 30%;    
+}
+
+.card h2{
+    margin-bottom: 15px;
+}
+
+.card__items{
+    text-align: left;
+}
+
+.card__item{
+    margin-bottom: 15px;
+}
+
+.card__item:last-child{
+    margin-bottom: 30px;
+}
+
+.card__item p {
+    display: inline;
+    padding-left: 5px;
+}
+
+/* MAIN - GET MORE*/
+.get_more{
+    width: 60%;
+    margin: 0px auto 40px auto;
+    text-align: center;   
+}
+
+.get_more header{
+    margin-bottom: 40px;
+}
+
+.get_more header h2{
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.get_more header p{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.get_more__img{
+    border: 2px solid var(--clr-grey-text);
+    padding: 2px;
+    border-radius: 100%;
+    overflow: hidden;
+    width: 200px;
+
+    margin-bottom: 10px;
+}
+
+ul.get_more__info
+{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    font-size: 12px;
+}
+
+/*FOOTER*/
+.newsletter{
+    height: 60px;
+    background-color: var(--clr-dark-bg-colour);
+    background: linear-gradient(45deg, rgba(158,114,17,1) 23%, rgba(200,164,52,1) 44%);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 20px;
+}
+
+.newsletter__info{
+    align-self: flex-end;
+    font-size: 14px;
+}
+
+.newsletter__info p {
+    font-size: 12px;
+}
+
+
+.copyright{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+/* BUTTONS */
+
+.read-more,
+.main-btn{
+    color: orange;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 3px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.main-btn{
+    color: white;
+}
+
+/*HOVER*/
+ul.main-nav li:hover,
+ul.places-nav li:hover{
+    background-color: var(--clr-light-bg-colour);
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.read-more:hover{
+    background-color: white;
+}
+
+
+
+
+
+
+
+
