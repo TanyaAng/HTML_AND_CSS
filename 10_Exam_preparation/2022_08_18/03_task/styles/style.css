@@ -1,0 +1,185 @@
+@import url("https://use.fontawesome.com/releases/v6.2.1/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto&display=swap");
+
+:root {
+  /* --clr-beige-dark: #857C79; */
+  --clr-beige-dark: #BAB1AD;
+  --clr-beige-light: #cfccc9;
+  --clr-gray-light: #f2f0f3;
+  --clr-green: #67784d;
+  --clr-white-text: #ebe3e1;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Abril Fatface", cursive;
+}
+
+p {
+  font-size: 16px;
+}
+
+span{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/*HERO SECTION*/
+
+.hero {
+  height: 100vh;
+  position: relative;
+}
+
+#background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero .header {
+  width: 300px;
+  padding: 10px 20px;
+
+  border: 1px solid darkgray;
+  border-radius: 3px;
+  box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
+
+  text-align: left;
+
+  background-color: transparent;
+
+  position: absolute;
+  top: 20px;
+  left: 50px;
+}
+
+.header h1 {
+  border-bottom: 2px solid white;
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+
+.hero .additional-info {
+  width: 300px;
+  padding: 10px 20px;
+
+  border: 1px solid darkgrey;
+  box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
+
+  background: rgb(133,124,121);
+background: linear-gradient(90deg, rgba(133,124,121,1) 40%, rgba(207,204,201,1) 75%);
+
+  text-align: right;
+  position: absolute;
+  top: 300px;
+  right: 30px;
+}
+
+.additional-info h2{
+    font-size: 50px;
+    color: var(--clr-beige-dark);
+}
+
+.additional-info p{
+    color: var(--clr-white-text)
+}
+
+/*MAIN*/
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: var(--clr-gray-light);
+}
+
+.services,
+.contacts{
+    padding: 50px;
+}
+
+.services h2
+{
+    margin-bottom: 20px;
+}
+
+.services__list li:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.services__list li p{
+    display: inline;
+    padding-left: 10px;
+}
+
+.contacts hr{
+    width:200%;
+    margin-left: -50px;
+    border: 2px solid var(--clr-beige-dark);
+    padding: unset;
+}
+
+.contacts .contact__list{
+    margin-bottom: 20px;
+}
+
+.contact__list li{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.aside{
+    width: 350px;
+    background-color: var(--clr-beige-dark);
+    padding: 30px 30px;
+}
+
+.aside__list{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.aside__list__header{
+    font-size: 50px;
+    font-weight:100;
+    color: var(--clr-white-text);
+    line-height: 1;
+}
+
+.aside__list__info{
+    text-transform: uppercase;
+}
+
+input{
+    background-color: var(--clr-beige-dark);
+    border: none;
+    padding: 10px 150px 10px 10px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+::placeholder{
+    color: var(--clr-white-text);
+}
+
+button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: var(--clr-green);
+    color: var(--clr-white-text);
+}
