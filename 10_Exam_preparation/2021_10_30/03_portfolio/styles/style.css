@@ -119,7 +119,7 @@ main section:not(:last-child){
 }
 
 .carousel__img-small{
-    width: 460px;
+    width: 30%;
 }
 
 .middle{
