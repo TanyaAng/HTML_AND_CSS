@@ -1,0 +1,25 @@
+/*HEADER AND NAVIGATION*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color:  grey;
+}
+
+ul.inline li{
+    display: inline-block;
+}
+
+.navigation li:not(:last-child){
+    margin-right: 30px;
+}
+
+ul.inline a{
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+}
+
+

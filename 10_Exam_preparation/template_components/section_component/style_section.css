@@ -1,0 +1,37 @@
+/*ABOUT SECTION*/
+.flex-type{
+    width: 50%;
+    margin: 0 auto;
+
+    background-color: beige;
+    
+    border-radius: 30px;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-type__content{
+    padding: 30px 90px;
+}
+
+.flex-type__content h2{
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+.flex-type__content h2,p{
+    margin-bottom: 30px;
+}
+
+.flex-type__btn{
+    background-color: orange;
+    color: black;
+    padding: 15px 45px;
+
+    border: none;
+    border-radius: 45px;
+}

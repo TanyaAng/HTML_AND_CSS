@@ -1,0 +1,32 @@
+/*FOOTER MAIN LINKS SECTION*/
+.footer__links{
+    background-color: lightgray;
+    color: var(--clr-white-text);
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+.footer__copyright{
+    background-color: darkgrey;
+    color: white;
+    text-align: center;
+}
+
+
+/*INLINE UL*/
+ul.inline li{
+    display: inline-block;
+}
+
+.horizontal__links li:not(:last-child){
+    padding-right:10px;
+}
+
+.vertical__links li:not(:last-child){
+    margin-bottom:10px;
+}
+
+li.hidden{
+    visibility: hidden;
+}
