@@ -1,0 +1,254 @@
+@import url("https://use.fontawesome.com/releases/v6.2.1/css/all.css");
+
+:root{
+    --clr-white-text: white;
+    --clr-grey-bg: #EEF0F1;
+    --clr-grey-input: #545A5E;
+    --clr-grey-medium-dark: #393F43;
+    --clr-grey-dark: #2F3539;
+    --clr-grey-darker: #262B2F;
+    --clr-blue-btn-sub: #6BBFFF;
+    --clr-blue-btn-started:#008CBA;
+    --clr-blue-text: #3BB3CC;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:var(--clr-grey-dark);
+    font-size: 18px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+span.blue{
+    color:var(--clr-blue-text);
+}
+
+ul.inline li{
+    display: inline-block;
+}
+
+header,
+.welcome,
+.services,
+.subscribe,
+.main__links,
+.copyright{
+    padding: 30px 150px;
+}
+
+.welcome,
+.services,
+.subscribe,
+.copyright{
+    text-align: center
+}
+
+h1{
+    font-size: 50px;
+    color:var(--clr-white-text);
+    font-weight: 500;
+}
+
+
+h2{
+    font-size: 36px;
+    font-weight: 500;
+}
+
+h3{
+    font-size: 22px;
+}
+
+/*BUTTONS*/
+
+button{
+    cursor: pointer;
+}
+
+.read-more{
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    padding:  8px 24px;
+    background-color: var(--clr-grey-dark);
+    color: var(--clr-white-text);
+}
+
+.rounded{
+    border-radius: 40px;
+    padding:  10px 40px;
+}
+
+.get-started{
+    font-size: 28px;
+    border: none;
+    border-radius: 40px;
+    padding:  10px 40px;
+    background-color: var(--clr-blue-btn-started);
+    color: var(--clr-white-text);
+}
+
+/*HR*/
+hr{
+    width: 10%;
+    margin:unset auto;
+    margin-bottom: 30px;
+    
+}
+
+hr.blue-line{
+    border: 2px solid var(--clr-blue-text);
+}
+
+hr.grey-line{
+    border: 2px solid var(--clr-grey-dark);
+}
+
+hr.white-line
+{
+    border: 2px solid var(--clr-white-text);
+}
+/*HEADER AND NAVIGATION*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation li:not(:last-child){
+    margin-right: 30px;
+}
+
+.navigation li:hover{
+    border-bottom: 3px solid var(--clr-blue-text);
+}
+
+/*HERO SECTION*/
+.hero{
+    position: relative;
+    width: 100%;
+}
+
+#hero-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.ready-to-promote{
+    width: 600px;
+    background-color: rgba(0,0,0, 0.3);
+    padding: 20px;
+
+    position: absolute;
+    top:50%;
+    left:200px;
+    transform: translateY(-50%);
+}
+
+/*WELCOME SECTION*/
+
+.welcome p{
+    margin-bottom: 30px;
+}
+
+/*SERVICES SECTION*/
+.services{
+    background-color: var(--clr-grey-bg);
+}
+
+.services__items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.card{
+    background-color: var(--clr-white-text);
+    color:var(--clr-grey-medium-dark);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card .content{
+    padding: 30px;
+}
+
+.content h3, p{
+    margin-bottom: 15px;
+}
+
+/*SUBSCRIBE SECTION*/
+.subscribe{
+    background-color: var(--clr-grey-medium-dark);
+    color: var(--clr-white-text);
+}
+
+.subscribe p{
+    margin-bottom: 30px;
+}
+
+.subscribe input{
+    font-size: 20px;
+    background-color: var(--clr-grey-input);
+    color: var(--clr-white-text);
+    border: none;
+    padding: 10px 150px 10px 10px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+::placeholder{
+    color: var(--clr-grey-medium-dark);
+    font-style: italic;
+}
+
+.subscr-btn{
+    font-size: 24px;
+    border: none;
+    border-radius: 8px;
+    padding:  12px 40px;
+    background-color: var(--clr-blue-btn-sub);
+    color: var(--clr-white-text);
+}
+
+
+/*FOOTER MAIN LINKS SECTION*/
+.main__links{
+    background-color: var(--clr-grey-dark);
+    color: var(--clr-white-text);
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+.copyright{
+    background-color: var(--clr-grey-darker);
+    color: var(--clr-white-text);
+}
+
+.links h4{
+    margin-bottom: 10px;
+}
+
+.horizontal__links li:not(:last-child){
+    padding-right:10px;
+}
+
+.vertical__links li:not(:last-child){
+    margin-bottom:10px;
+}
+
+li.hidden{
+    visibility: hidden;
+}
+
