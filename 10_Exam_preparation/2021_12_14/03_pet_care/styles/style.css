@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap');
+
+:root{
+    --clr-orange: #ED5716;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif; 
+  /* width: 60%; 
+  margin: 0 auto; */
+}
+
+header,
+.services,
+.about,
+footer{
+    padding: 30px 20%;
+}
+
+.regular-heading{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+}
+
+.bold-heading{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul.inline li{
+    display: inline-block;
+    padding-right: 15px;
+}
+
+
+img.background{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+
+p.inline{
+    display: inline-block;
+    padding-left: 30px;
+}
+
+/*HEADER AND NAVIGATION*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav{
+    font-size: 22px;
+}
+
+
+/*HERO SECTION and CONTACT SECTION*/
+.hero,
+.contact{
+    position: relative;
+    height: 50vh;
+}
+
+.content{
+    width: 500px;
+    position: absolute;
+    top: 30%;
+    left:20%;
+
+    color: white;
+    font-size: 24px;
+}
+
+.contact__content{
+    text-align: center;
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+    color: white;
+    font-size: 24px;
+}
+
+#dog{
+    width: 50vh;
+    position: absolute;
+    bottom: -70px;
+    left:50%;
+}
+
+.content h1{
+    font-size: 60px;
+    line-height: 1.2;
+}
+
+.content h1.bold-heading, p, h2{
+    margin-bottom: 50px;
+}
+
+.contact-btn{
+    color: var(--clr-orange);
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+/*SERVICES SECTION*/
+.services{
+    text-align: center;
+}
+.services__items{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.services h2{
+    margin: 0;
+    font-size: 36px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.card{
+    border: 1px solid var(--clr-orange);
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 30px;
+}
+
+.card h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card:first-child{
+    border-right: none;
+}
+
+.card:last-child{
+    border-left: none;
+}
+.card__img{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+img.img-block{
+    display: block;
+    margin: 0 auto;
+}
+
+img.pet{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*ABOUT SECTION*/
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.about h2{
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+.about h2:first-child{
+    margin-bottom: 0px;
+}
+.about__content{
+    width: 40%;
+}
+
+.about__contact-btn{
+    background-color: var(--clr-orange);
+    color: white;
+    padding: 15px 45px;
+}
+/*FOOTER*/
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer h4, img{
+    margin-bottom: 30px;
+}
+
+footer li{
+    margin-bottom: 15px;
+}
+
+
