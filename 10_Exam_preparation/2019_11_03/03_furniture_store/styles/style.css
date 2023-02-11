@@ -1,0 +1,200 @@
+@import url("https://use.fontawesome.com/releases/v6.2.1/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+:root{
+    --clr-orange-bg: #F93700;
+    --clr-grey-bg: #CAC3C3;
+    --clr-darkgrey: #757575;
+    --clr-white: #fff;
+    --clr-body-bg: #F0E4E4;
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+
+    background-color: var(--clr-body-bg);
+    color:var(--clr-grey-bg);
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+p.inline-paragr{
+    display: inline;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*--------------------
+   HEADER 
+-------------------*/
+
+header{
+    background-color: var(--clr-orange-bg);
+    color: var(--clr-white);
+
+    padding: 20px 50px;  
+    
+    margin-bottom: 20px;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation li{
+    display: inline;
+    padding-right: 10px;
+}
+
+.search-panel{
+    display: flex;
+}
+
+.search-panel input,
+.search-panel button{
+    padding: 3px 20px;
+    border: none;
+}
+
+.search-panel button{
+    background-color: var(--clr-grey-bg);
+    color:var(--clr-white);
+}
+
+.login i{
+    margin-right: 15px;
+}
+
+/*--------------------
+   MAIN GRID TYPE
+-------------------*/
+
+.grid-type{
+    width: 80%;
+    margin: 0 auto 60px auto;
+
+    /* padding: 20px; */
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+
+}
+
+.grid__article{
+    text-align: center;
+    color: var(--clr-darkgrey);
+}
+
+.grid__article p {
+    padding: 10px;
+}
+
+/*--------------------
+   MAIN FLEX TYPE
+-------------------*/
+
+.flex-type{
+    width: 80%;
+    overflow: hidden;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-bottom: 40px;
+}
+
+.flex-type__img{
+    width: 60%;
+}
+
+.flex-type__content{
+    text-align: left;
+}
+
+.flex-type__content h2{
+    color:var(--clr-orange-bg);
+}
+
+.flex-type__btn{
+    border: none;
+
+    background-color: var(--clr-orange-bg);
+    color: var(--clr-white);
+
+    font-size: 12px;
+
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+/*--------------------
+   MAIN GRID TYPE SERVICES
+-------------------*/
+
+.services{
+    background-color: var(--clr-grey-bg);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+    padding: 40px;
+    margin-bottom: 0px;
+}
+
+.service__img-container{
+    background-color: var(--clr-body-bg);
+    border: none;
+    border-radius: 100%;
+
+    width: 100px;
+
+    padding: 20px;
+    margin: 0 auto;
+
+}
+
+.grid__article h3{
+    text-transform: uppercase;
+}
+
+
+/*--------------------
+   FOOTER
+-------------------*/
+
+footer{
+    width: 80%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 0px;
+
+    color:var(--clr-darkgrey)
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.footer button{
+    padding: 5px 50px;
+    border: none;
+    background-color: var(--clr-grey-bg);
+    border-radius: 5px;
+}
