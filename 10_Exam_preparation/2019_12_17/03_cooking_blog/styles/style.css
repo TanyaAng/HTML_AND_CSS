@@ -1,0 +1,237 @@
+@import url("https://use.fontawesome.com/releases/v6.2.1/css/all.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,700;1,400&display=swap');
+
+:root{
+    --clr--grey-bg: #c8c9c9;
+    --clr--grey-footer: #8C8C8C;
+    --clr-grey-darker-text: #53595C;
+    --clr-blue:#146594;
+    --clr-white: #fff; 
+    --clr-beige-bg: #E6E3DE;
+    --clr-brown: #554938;
+    --clr-red: #D94B33;
+}
+
+body{
+    font-family: 'Gelasio', serif;
+    background-image: url('/10_Exam_preparation/2019_12_17/03_cooking_blog/Media/background.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+ul.inline_list li {
+    display: inline;
+    margin-right: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+/*--------------------
+   HEADER 
+-------------------*/
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--clr-beige-bg);
+    color:var(--clr-brown);
+
+    padding: 10px 30px;
+}
+.navigation ul {
+    font-size: 14px;
+}
+
+.login__link{
+    padding: 5px;
+    background-color: var(--clr-grey-darker-text);
+    color: var(--clr-white);
+
+    font-size: 12px;
+}
+
+/*--------------------
+   HERO SECTION 
+-------------------*/
+
+.hero{
+    height: 50vh;
+    position: relative;
+
+    margin-bottom: 40px;
+
+}
+
+.hero__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero__content{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero__content h1{
+    font-size: 36px;
+    color: var(--clr-white);
+    margin-bottom: 15px;
+}
+
+.hero__search{
+    position: relative;
+}
+
+.hero__search input{
+    width: 80%;
+    background-color: var(--clr--grey-bg);
+
+    opacity: 0.8;
+    border: none;
+
+    padding-left: 30px;
+}
+
+.hero__search i{
+    position: absolute;
+    left: 50px;
+    top: 5px
+}
+
+
+
+/*--------------------
+   MAIN ARTICLES
+-------------------*/
+
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.article__item{
+    width: 80%;
+    overflow: hidden;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+
+    background-color: var(--clr-beige-bg);
+    
+    margin-bottom: 20px;
+}
+
+.article__item__img{
+    width: 60%;
+}
+
+.article__item__content{
+    color: var(--clr-brown);
+    margin: 0 auto;
+    text-align: center;
+}
+.article-btn{
+    background-color: var(--clr-brown);
+    border: none;
+    color: var(--clr-white);
+    font-size: 12px;
+    padding: 5px 10px;
+    margin-top: 20px;
+}
+
+.article_reverse{
+    flex-direction: row-reverse;
+}
+
+/*--------------------
+   MAIN TOOLBOX
+-------------------*/
+
+.toolbox{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+.toolbox h3{
+    display: inline-block;
+
+    padding: 10px;
+
+    background-color: var(--clr--grey-bg);
+    color:var(--clr-brown);
+
+    margin-bottom: 20px;
+}
+
+.toolbox__articles{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+
+    margin-bottom: 30px;
+}
+
+
+.toolbox__item p{
+    background-color: var(--clr--grey-bg);
+    opacity: 0.8;
+    padding: 10px;
+}
+
+.toolbox-btn{
+    font-size: 14px;
+
+    padding: 5px 50px;
+    background-color: var(--clr-red);
+    color: var(--clr-white);
+
+    border: none;
+}
+
+/*--------------------
+   FOOTER
+-------------------*/
+
+footer{
+    padding: 30px;
+    background-color: var(--clr-beige-bg);
+    color:var(--clr-brown);
+
+    opacity: 0.8;
+}
+
+footer div{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer li {
+    display: inline;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+
+.footer li:not(:last-child){
+    border-right: 1px solid var(--clr-brown);
+}
+
+
+
+
