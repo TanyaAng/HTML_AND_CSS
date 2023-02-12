@@ -1,0 +1,42 @@
+@media screen and (max-width: 600px) {
+    .tm-section-title{
+        margin: 30px auto;
+    }
+
+    .col-12{
+        margin-bottom: 30px;
+    }
+
+    .text-center{
+        text-align: center;
+    } 
+
+    .tm-gallery-page{
+        width: 80%;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+
+}
+    .tm-gallery-item{
+        max-width: unset;
+        width: 100%;
+    }
+
+    .img-fluid{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .tm-cta-section{
+        width: 100%;
+    }
+
+    .row{
+        margin: 0 auto; 
+        flex-direction: column;
+        align-items: center;
+    }
+}
