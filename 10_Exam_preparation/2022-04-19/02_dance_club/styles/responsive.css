@@ -1,0 +1,111 @@
+@media screen and (max-width: 800px){
+    body{
+        font-size: 14px;
+    }
+
+    header div h1{
+        font-size: 2.5rem;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+
+    nav p{
+        margin-bottom: 20px;
+    }
+
+    nav ul {
+        padding: 0px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .trainings{
+        flex-direction: column;
+        border: 1px solid red;
+    }
+
+    .trainings div {
+        width: 80%;
+    }
+
+    .instructors-pic{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .classes{
+        font-size: 1.2rem;
+    }
+
+    .classes ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .classes li {
+        width: 45%;
+    }
+
+    .getInTouch{
+        flex-direction: column;
+        overflow: visible;
+    }
+
+    .form{
+        /* flex: 0 1 auto; */
+        width: 60%;
+    }
+
+    .getInTouch form input, 
+    .getInTouch form textarea{
+        width: 100%;
+        height: 2.5rem;
+    }
+
+    .getInTouch form textarea{
+        height: 6rem;
+    }
+
+
+    .getInTouch form button{
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+
+    .map{
+        flex: 1 0 auto;
+        overflow: visible;
+    }
+
+    .map img {
+        position: unset;
+        transform: unset;
+    }
+
+    .map:after{
+        display: none;
+    }
+
+    .site-footer .wrapper{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-areas:
+        "about about"
+        "sitemap contacts";
+    }
+
+    .site-footer .about{
+        grid-area: about;
+    }
+
+    .site-footer .sitemap{
+        grid-area: sitemap;
+    }
+
+    .site-footer .contacts{
+        grid-area: contacts;
+    }
+}
+
