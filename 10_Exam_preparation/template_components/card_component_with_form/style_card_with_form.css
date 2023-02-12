@@ -1,5 +1,5 @@
 /* -------------
-      CARD
+CARD WITH FORM CONTAINER
 ---------------*/
 
 img{
@@ -9,7 +9,7 @@ img{
 }
 
 .card{
-    width: 450px;
+    width: 800px;
     border-radius: 25px;
     overflow: hidden;
 
@@ -17,7 +17,7 @@ img{
     color:black;
 
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     /* justify-content: space-between; */
     /* align-items: center; */
 } 
@@ -40,8 +40,8 @@ img{
 }
 
 .card__content{
-    /* width: 50%; */
-    /* margin: 0 auto; */
+    width: 80%; 
+    margin: 0 auto;
     text-align: center;
     padding: 30px 20px;
 }
@@ -79,7 +79,7 @@ img{
 .card__main{
     position: relative;
 }
-.card__main {
+.card__main::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -89,4 +89,52 @@ img{
     background-color: rgba(0,0,0,0.8);
     opacity: 0.8;
   }
+
+/* -------------
+FORM CONTAINER
+---------------*/
+
+form{
+    width: 100%;
+    text-align: left;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid #E52236;
+
+    background-color: rgb(248, 191, 191);
+    
+    padding: 10px 0px;
+}
+
+input::placeholder{
+    color:#FFF;
+}
+
+label{
+    display: block;
+    margin: 10px 0px;
+
+
+    font-weight: bold;
+}
+
+/* FLEX CONTAINER INPUT */
+.flex__input-ctr {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px
+}
+
+/* REGULAR INPUT */
+.input{
+    width: 100%;
+}
+
+.checkbox-ctn{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
 
