@@ -1,25 +1,65 @@
-/*HEADER AND NAVIGATION*/
-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+@import url("https://use.fontawesome.com/releases/v6.2.1/css/all.css");
 
-    background-color:  grey;
+a{
+    text-decoration: none;
+    color: unset;
+}
+/*--------------------
+   HEADER 
+-------------------*/
+
+header{
+    background-color: #F93700;
+    color: #fff;
+
+    padding: 10px 20px;  
+    
+    margin-bottom: 20px;
 }
 
-ul.inline li{
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation{
+    display: flex;
+    gap:20px;
+    padding-right: 10px;
+}
+
+.navigation li{
+    text-align: center;
+    list-style: none;
+    line-height: 0.5;
+}
+
+.nav-icon{
     display: inline-block;
 }
 
-.navigation li:not(:last-child){
-    margin-right: 30px;
+.search-panel{
+    /* margin: 0 auto; */
+    display: flex;
 }
 
-ul.inline a{
-    text-decoration: none;
-    color: inherit;
-    text-transform: uppercase;
+.search-panel input,
+.search-panel button{
+    padding: 3px 20px;
+    border: none;
 }
 
+.search-panel button{
+    background-color: gray;
+    color:#fff;
+}
+
+.login i{
+    margin-right: 15px;
+}
+
+.login .inline-paragr{
+    display: inline;
+}
 
